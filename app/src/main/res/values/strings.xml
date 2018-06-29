@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="string_interpolators">Interpolator</string>
+    <string name="string_hint_interpolator">Select a interpolator:</string>
+    <string name="string_click_count">click count: %1$d</string>
+</resources>
