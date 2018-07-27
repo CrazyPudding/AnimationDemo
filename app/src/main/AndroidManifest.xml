@@ -18,6 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- View Animation -->
         <activity
             android:name=".viewanimation.InterpolatorsActivity"
             android:label="ViewAnimation/Interpolators">
@@ -74,8 +76,22 @@
                 <category android:name="com.crazypudding.demo.animationdemo.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-        <activity android:name=".viewanimation.TranslateButton"
+        <activity
+            android:name=".viewanimation.TranslateButton"
             android:label="ViewAnimation/Translate">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.crazypudding.demo.animationdemo.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <!-- Property Animation -->
+
+
+        <!-- Transition -->
+        <activity android:name=".transition.gridtopager.GridToPagerActivity"
+            android:label="Transition/FragmentTransition">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
